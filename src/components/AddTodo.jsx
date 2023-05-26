@@ -31,8 +31,8 @@ export const AddTodo = () =>{
                             borderBottomRightRadius={0}
                         />
                     </FormControl>
-                    <Button 
-                        colorScheme="teal" 
+                    <Button
+                        colorScheme="blue" 
                         type="submit" 
                         disabled={!value}
                         borderTopLeftRadius={0}

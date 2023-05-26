@@ -38,18 +38,24 @@ export const Todo = ({todo}) =>{
             as={todo.completed && "del"}>{todo.content}
             </Text>
             </Checkbox>
+            <span>
             <IconButton
             icon={<EditIcon />}
             onClick={handleEdit}
             ml={2}
             variant="ghost"
+            
             />
+            </span>
+            <span>
             <IconButton
             icon={<DeleteIcon />}
             onClick={handleDelete}
             ml={2}
             variant="ghost"
+            
           />
+            </span>
         </Flex>
         ) : (
         <Flex alignItems="center">
