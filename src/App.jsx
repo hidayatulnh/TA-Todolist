@@ -10,8 +10,8 @@ function App() {
       <Container maxW="container.md">
         <Heading my="5" textAlign="center">Todo List App</Heading>
         <AddTodo />
-        <TodoList/>
         <VisibilityFilter />
+        <TodoList />
       </Container>
       
     </>
